@@ -1,0 +1,180 @@
+body{
+    background: rgb(21,46,240);
+    background: linear-gradient(108deg, rgba(21,46,240,1) 0%, rgba(111,186,224,1) 33%, rgba(75,227,87,1) 71%, rgba(6,187,65,1) 87%); 
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+html{
+    height: 100%;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input[type=text] {
+    margin:5px ;
+    border: none;
+    border-bottom: rgb(175, 159, 243) solid;
+    
+}
+
+input[type=submit] {
+
+    appearance:none;
+    -webkit-appearance:none;
+    padding:10px;
+    border:none;
+    background-color:#b5bef8;
+    color:rgb(10, 10, 10);
+    font-weight:600;
+    border-radius:5px;
+    width:100%; 
+}
+  
+input[type=radio]{
+    -webkit-appearance : none;
+    appearance         : none;
+    width              : 22px;
+    height             : 22px;
+    margin             : calc(0.75em - 11px) 0.25rem 0 0;
+    vertical-align     : top;
+    border             : 2px solid #ddd;
+    border-radius      : 4px;
+    background         : #fff no-repeat center center;
+    border-radius : 50%;
+}
+
+input:where([type="radio"]):where(:active:not(:disabled), :focus){
+    border-color : rgb(91, 67, 230);
+    outline      : none;
+}
+
+input:where([type="radio"]):disabled{
+    background : #eee;
+}
+
+input[type="radio"]:checked{
+    background-image : url('../recursos/radio.svg');
+}
+
+#main{
+    border-radius: 10%;
+    background-color: white;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding: 100px;
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 3%;
+}
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#152ef0, #5B42F3 50%,#06bb41);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #070707;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(243, 243, 245);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+  color: aliceblue;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(250, 250, 250);
+  overflow: hidden;
+}
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #993dd6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd; 
+  color: black;
+}
+  
+  /* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #71d164;
+  color: white;
+}
+
+.frase{
+  color: #993dd6;
+  background-color: white;
+  border-radius: 100%;
+  padding: 100px;
+}
+
+.frase h2{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+}
+
+.frase h1{
+  font-family: cursive;
+  font-size: 90px;
+}
+
+table{
+  display: inline-block;
+  padding: 3cm;
+}
+
+img{
+  border-radius: 5%;
+  height: 5cm;
+  width: 8cm;
+}
+
+img:hover{
+  height: 8cm;
+  width: 11cm;
+}
