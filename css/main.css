@@ -13,7 +13,7 @@ h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-input[type=text] {
+input[type=text]{
     margin:5px ;
     border: none;
     border-bottom: rgb(175, 159, 243) solid;

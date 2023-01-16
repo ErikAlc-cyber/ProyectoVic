@@ -17,7 +17,7 @@
         <a href="login.html"> Ingresar </a>
     </div>
     <div id="main">
-        <form id="form" action="" method="get">
+        <form id="form">
             <table>
                 <tr>
                     <td colspan="2"><h2>Ingresa los datos de tu mejor amigo</h2></td>
@@ -41,13 +41,15 @@
                 <tr>
                     <td>Sexo:</td>
                     <td>
-                        <input type="radio" name="sexo" id="h" value="Macho"> 
+                        <input type="radio" name="sexo" id="sexo" value="Macho"> 
                         <label for="h">H</label>
-                        <input type="radio" name="sexo" id="m" value="Hembra">
+                        <input type="radio" name="sexo" id="sexo" value="Hembra">
                         <label for="m">M</label>
                     </td>
                 </tr>
             </table>
+            <div id="msg"></div>
+            <script src="/js/input.js"></script>
             <button type="submit" class="button-64" style="font-size: small;"><span>Siguiente</span></button>
         </form>
     </div>
